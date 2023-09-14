@@ -1,0 +1,11 @@
+Model Information:
+* title:	Wooden Chess Set
+* source:	https://sketchfab.com/3d-models/wooden-chess-set-90151fb0fb294e56b45e52b001a884db
+* author:	cmzw (https://sketchfab.com/cmzw)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Wooden Chess Set" (https://sketchfab.com/3d-models/wooden-chess-set-90151fb0fb294e56b45e52b001a884db) by cmzw (https://sketchfab.com/cmzw) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -55,14 +55,14 @@ scene.add(pointLight3);
 scene.add(pointLight4);
 
 
-const lightHelper1 = new THREE.PointLightHelper(pointLight1)
-const lightHelper2 = new THREE.PointLightHelper(pointLight2)
-const lightHelper3 = new THREE.PointLightHelper(pointLight3)
-const lightHelper4 = new THREE.PointLightHelper(pointLight4)
-scene.add(lightHelper1);
-scene.add(lightHelper2);
-scene.add(lightHelper3);
-scene.add(lightHelper4);
+// const lightHelper1 = new THREE.PointLightHelper(pointLight1)
+// const lightHelper2 = new THREE.PointLightHelper(pointLight2)
+// const lightHelper3 = new THREE.PointLightHelper(pointLight3)
+// const lightHelper4 = new THREE.PointLightHelper(pointLight4)
+// scene.add(lightHelper1);
+// scene.add(lightHelper2);
+// scene.add(lightHelper3);
+// scene.add(lightHelper4);
 
 // const spotlight = new THREE.SpotLight(0xffffff, 10 , 10, 0.6, 0.5);
 // spotlight.position.set(0, 10, 0);
@@ -74,7 +74,7 @@ const loader = new GLTFLoader();
 
 let model;
 
-loader.load('./models/wooden_chess_set.glb', function ( gltf ) {
+loader.load('./models/WoodenChessSet2.glb', function ( gltf ) {
 
 	gltf.scene.scale.set(25,25,25);
     scene.add( gltf.scene );
