@@ -1,3 +1,9 @@
+for /f "tokens=*" %%a in ('where python.exe') do (
+  set PYTHON_DIR=%%~dpa
+)
+
+set PATH=%PYTHON_DIR%\Scripts;%PATH%
+
 echo Installing gdown Python Package for downloading setup files...
 :: Installs gdown package globally
 pip install gdown
