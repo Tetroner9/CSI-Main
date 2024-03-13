@@ -11,7 +11,7 @@ where choco > NUL 2>&1 (
 )
 
 
-curl -O https://raw.githubusercontent.com/Tetroner9/CSI-Main/main/post1.bat
-curl -O https://raw.githubusercontent.com/Tetroner9/CSI-Main/main/post2.bat
+curl -O -f https://raw.githubusercontent.com/Tetroner9/CSI-Main/main/post1.bat
+curl -O -f https://raw.githubusercontent.com/Tetroner9/CSI-Main/main/post2.bat
 
 start post1.bat
