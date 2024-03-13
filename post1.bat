@@ -1,3 +1,4 @@
+@ECHO OFF
 where python > NUL 2>&1 (
   ECHO Python not found. Installing...
   if %CHOCOLATEY_INSTALLED% == 0 (
