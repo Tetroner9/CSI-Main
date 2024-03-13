@@ -13,3 +13,5 @@ where python > NUL 2>&1 (
 ECHO Now, let's install the following:
 ECHO - XAMPP (web development server) - https://www.apachefriends.org/
 ECHO - Visual Studio Code (code editor) - https://code.visualstudio.com/download
+
+start post2.bat
