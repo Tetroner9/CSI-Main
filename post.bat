@@ -17,12 +17,9 @@ REM Install Flask using pip in the virtual environment
 pip install Flask
 
 REM Create a file named main.py with "Hello,Flask" content
-echo print("\"Hello,Flask\"") > main.py
+echo print("Hello,Flask") > main.py
 
 REM Open VS Code in the current directory
 code .
-
-REM Deactivate the virtual environment (optional)
-# deactivate  (if needed)
 
 echo All tasks completed!
