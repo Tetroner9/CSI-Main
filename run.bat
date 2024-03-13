@@ -9,9 +9,12 @@ where choco > NUL 2>&1 (
   powershell -ExecutionPolicy Bypass -Command "[System.Net.ServicePointManager]::SecurityProtocol = [SecurityProtocolSupport]::Tls12; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))"
   set CHOCOLATEY_INSTALLED=1
 )
+rm -rf ~/.cache/curl_cache
 
 
 curl -O -f https://raw.githubusercontent.com/Tetroner9/CSI-Main/main/post1.bat
 curl -O -f https://raw.githubusercontent.com/Tetroner9/CSI-Main/main/post2.bat
 
 start post1.bat
+
+PAUSE

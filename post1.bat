@@ -1,4 +1,6 @@
 @ECHO OFF
+set CHOCOLATEY_INSTALLED=1
+
 where python > NUL 2>&1 (
   ECHO Python not found. Installing...
   if %CHOCOLATEY_INSTALLED% == 0 (
@@ -16,3 +18,5 @@ ECHO - XAMPP (web development server) - https://www.apachefriends.org/
 ECHO - Visual Studio Code (code editor) - https://code.visualstudio.com/download
 
 start post2.bat
+
+PAUSE
