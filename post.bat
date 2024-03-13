@@ -24,6 +24,4 @@ start code .
 
 echo All tasks completed!
 
-PAUSE
-
 exit
