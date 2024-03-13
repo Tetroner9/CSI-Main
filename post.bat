@@ -20,6 +20,10 @@ REM Create a file named main.py with "Hello,Flask" content
 echo print("Hello,Flask") > main.py
 
 REM Open VS Code in the current directory
-code .
+start code . 
 
 echo All tasks completed!
+
+PAUSE
+
+exit
