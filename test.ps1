@@ -26,6 +26,8 @@ if (Test-Path ~\AppData\Local\Microsoft\WindowsApps\winget.exe) {
   Write-Host "Winget installed successfully!"
 }
 
+winget --version
+winget update
 # Install software using winget with specific versions
 $softwareList = @("Python.Python.3.12", "ApacheFriends.Xampp.8.2", "Microsoft.VisualStudioCode")
 
